@@ -220,6 +220,12 @@ span.copyleft {
     -ms-filter: “FlipH”;
 }
 
+@font-face {
+    font-family: Monocraft;
+    src: url(./fonts/Monocraft.otf);
+    src: url(./fonts/Monocraft.ttf);
+}
+
 @media only screen and (min-width: 801px) {
     hgroup {
         margin: 2rem 0 8rem 0;
