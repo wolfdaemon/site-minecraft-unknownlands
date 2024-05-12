@@ -1,0 +1,235 @@
+/* Element & Element Class Selectors */
+
+a {
+    color: #aaf;
+}
+
+body {
+    background: #111111 url(./images/background-body.png);
+    display: flex;
+    flex-direction: column;
+    font-family: Monocraft, Arial, sans-serif;
+    font-size: 16px;
+    justify-content: space-between;
+    margin: 0;
+    min-height: 100vh;
+}
+
+button {
+    border: 2px solid #FFF;
+    border-radius: 6px;
+    background-color: #52a435;
+    color: #FFFFFF;
+    width: 8rem;
+    height: 2.5rem;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+button a {
+    color: inherit;
+    text-decoration: none;
+}
+
+button.button-hero {
+    border: 0;
+}
+
+cite {
+    font-size: 1.5rem;
+    /* font-family, font-size, font-stretch, font-style */
+    text-align: end;
+    padding: 0 16rem;
+    font-family: Monocraft, Arial, sans-serif;
+    font-weight: bold;
+}
+
+div.action-call {
+    display: flex;
+    border-radius: 8px;
+    background-color: #52a435;
+    color: #FFFFFF;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+}
+
+div.action-call button {
+    white-space: nowrap;
+}
+
+div.action-call-text p,
+div.action-call-text h2 {
+    margin: 0;
+}
+
+div.action-call-text p {
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+div.hero-message {
+    display: flex;
+    flex-direction: column;
+    max-width: 490px;
+    margin: 0 0 3rem 1rem;
+}
+
+div.section-hero {
+    /* background-color: #1F3725; */
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+div.section-hero h1 {
+    /* Logo */
+    font-size: 1.5rem;
+}
+
+div.section-hero h2 {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+div.section-hero h1,
+/* Logo */
+div.section-hero h2 {
+    color: #F9FAF8;
+    margin: 0;
+}
+
+
+div.randinfo-images {
+    margin: 0;
+}
+
+div.randinfo-image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+}
+
+div.randinfo-image figure img {
+    width: 8rem;
+    height: 8rem;
+}
+
+div.randinfo-images div.randinfo-image figcaption {
+    color: #feff10;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    width: 149px;
+}
+
+figure {
+    border: 3px double #c6c6c6;
+    height: 8rem;
+    width: 8rem;
+}
+
+footer {
+    /* background-color: #1F3725; */
+    color: #F9FAF8;
+    text-align: center;
+    margin: 3rem 0 0 0;
+    padding: 1rem;
+}
+
+footer p.attribution {
+    margin: 0 0 1rem 0;
+}
+
+header {
+    margin: 1rem;
+}
+
+hgroup {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 1rem 0 1rem 0;
+}
+
+hgroup.button-hero {
+    border: none;
+}
+
+iframe {
+    display: block;
+    margin: 1rem auto;
+    height: auto;
+    min-height: 240px;
+    width: 80%;
+}
+
+img.hero-img {
+    height: 220px;
+    width: 572px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    background: #211710 url(./images/background-header.png);
+    padding: 1rem 0;
+    margin: 0 0 2rem 0;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0 1rem 0 auto;
+}
+
+nav ul li {
+    margin: 0 .5rem;
+}
+
+nav ul li a {
+    color: #F9FAF8;
+    text-decoration: none;
+}
+
+section {
+    margin: 1rem;
+}
+
+section.randinfo {
+    text-align: center;
+    padding: 0 0 0 0;
+}
+
+section.randinfo h2 {
+    color: #F9FAF8;
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+span.copyleft {
+    display: inline-block;
+    text-align: right;
+    margin: 0px;
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: “FlipH”;
+}
+
+@media only screen and (min-width: 801px) {
+    hgroup {
+        margin: 2rem 0 8rem 0;
+    }
+
+    iframe {
+        display: block;
+        margin: 0 auto;
+        height: auto;
+        min-height: 480px;
+        width: 80%;
+    }
+}
