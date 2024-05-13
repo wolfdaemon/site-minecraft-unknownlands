@@ -16,10 +16,11 @@ body {
 }
 
 button {
-    border: 2px solid #FFF;
+    border: 0;
     border-radius: 6px;
     background-color: #52a435;
     color: #FFFFFF;
+    cursor: pointer;
     width: 8rem;
     height: 2.5rem;
     font-size: 18px;
@@ -32,7 +33,12 @@ button a {
 }
 
 button.button-hero {
-    border: 0;
+    border: 2px solid #FFF;
+}
+
+button.button-discord {
+    background-color: #404eed;
+    border: 2px solid #FFF;
 }
 
 cite {
@@ -69,8 +75,6 @@ div.action-call-text p {
 }
 
 div.hero-message {
-    display: flex;
-    flex-direction: column;
     max-width: 490px;
     margin: 0 0 3rem 1rem;
 }
