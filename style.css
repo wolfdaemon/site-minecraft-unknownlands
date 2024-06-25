@@ -243,6 +243,7 @@ span.copyleft {
         margin: 0 auto;
         height: auto;
         min-height: 480px;
-        width: 80%;
+        min-width: 47.8125rem;
+        max-width: 40%;
     }
 }
