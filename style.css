@@ -197,7 +197,9 @@ nav ul li {
 
 nav ul li a {
     color: #F9FAF8;
+    display: inline-block;
     text-decoration: none;
+    width: 18px;
 }
 
 section {
