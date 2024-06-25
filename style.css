@@ -105,6 +105,9 @@ div.section-hero h2 {
 
 div.randinfo-images {
     margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 div.randinfo-image {
