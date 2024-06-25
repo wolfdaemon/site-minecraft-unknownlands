@@ -51,12 +51,15 @@ cite {
 }
 
 div.action-call {
-    display: flex;
+    align-items: center;
     border-radius: 8px;
     background-color: #52a435;
     color: #FFFFFF;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
     justify-content: center;
-    align-items: center;
+    max-width: 32rem;
     padding: 3rem;
 }
 
@@ -64,9 +67,9 @@ div.action-call button {
     white-space: nowrap;
 }
 
-div.action-call-text p,
+div.action-call-text button,
 div.action-call-text h2 {
-    margin: 0;
+    margin: 0 0 1rem 0;
 }
 
 div.action-call-text p {
@@ -204,6 +207,11 @@ nav ul li a {
 
 section {
     margin: 1rem;
+}
+
+section.action-call {
+    display: flex;
+    justify-content: center;
 }
 
 section.randinfo {
