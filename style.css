@@ -180,6 +180,10 @@ img.hero-img {
     width: 572px;
 }
 
+p {
+    color: #F9FAF8;
+}
+
 nav {
     display: flex;
     align-items: center;
@@ -255,5 +259,13 @@ span.copyleft {
         min-height: 480px;
         min-width: 47.8125rem;
         max-width: 40%;
+    }
+
+    section {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        padding: 1rem 18rem;
+        margin: 1rem;
     }
 }
